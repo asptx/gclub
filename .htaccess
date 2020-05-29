@@ -1,2 +1,1 @@
-RewriteEngine on
-RewriteRule ^$ /home.html [L]
+DirectoryIndex home.html home.php index.html index.php
