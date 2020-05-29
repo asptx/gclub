@@ -1,4 +1,2 @@
-<IfModule dir_module>
- DirectoryIndex home.html home.php index.html index.php
- RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.(html|htm|php|php3|php5|shtml|phtml) [NC]
-</IfModule>
+RewriteEngine on
+RewriteRule ^$ /home.html [L]
